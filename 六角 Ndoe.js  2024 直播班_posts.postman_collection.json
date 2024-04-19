@@ -90,12 +90,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3005/posts/6622034f88dd7ecc1a88f7ab",
-					"protocol": "http",
+					"raw": "https://homework-nodejs-npm-mongodb.onrender.com/posts/6622034f88dd7ecc1a88f7ab",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"homework-nodejs-npm-mongodb",
+						"onrender",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"posts",
 						"6622034f88dd7ecc1a88f7ab"
@@ -119,12 +120,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3005/posts/6622034f88dd7ecc1a88f7ab",
-					"protocol": "http",
+					"raw": "https://homework-nodejs-npm-mongodb.onrender.com/posts/6622034f88dd7ecc1a88f7ab",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"homework-nodejs-npm-mongodb",
+						"onrender",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"posts",
 						"6622034f88dd7ecc1a88f7ab"
