@@ -4,12 +4,10 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
 dotenv.config({path:"./config.env"});
-// const DB = process.env.DATABASE.replace(
-//     '<password>',
-//     process.env.DATABASE_PASSWORD
-// )
-
-const DB = 'mongodb://127.0.0.1:27017/homework'
+const DB = process.env.DATABASE.replace(
+    '<password>',
+    process.env.DATABASE_PASSWORD
+)
 
 // 連接資料庫
 mongoose.connect(DB).then(()=>{
